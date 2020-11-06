@@ -8,9 +8,9 @@ public class LifeTest {
         
         // Arrange: drei lebende Zellen
         Life l = new Life();
-        l.setAlive(2, 1);
-        l.setAlive(2, 2);
-        l.setAlive(2, 3);
+        l.setAlive(1, 0);
+        l.setAlive(1, 1);
+        l.setAlive(1, 2);
 
         // Act: Berechnung der Folgegeneration
         ILife nextGen = l.nextGeneration();
